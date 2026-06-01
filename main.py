@@ -110,6 +110,7 @@ class MiMotion():
 
     def login(user, password):
         print(user)
+        print(password)
         try:
             # url1 = f"https://api-user.huami.com/registrations/{user}/tokens"
             url1 = f"https://api-user.zepp.com/registrations/{user}/tokens"
